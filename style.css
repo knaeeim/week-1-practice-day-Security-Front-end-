@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.main-header{
+    background-image: url(./image/cover-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+.banner-btn{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+img{
+    margin-top: 35px;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style: none;
+    margin: 50px;
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 100px;
+    color: rgb(8, 224, 15);
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(238, 234, 234);
+}
+
+.btn{
+    padding:20px;
+    background-color: rgb(127, 228, 232);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0;
+    cursor: pointer;
+}
+
+.title{
+    font-size: 50px;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(45, 181, 32);
+    margin-top: 0px;
+}
+
+.min-title{
+    color:rgb(11, 161, 230)
+}
+
+.btn:hover{
+    background-color: rgb(75, 141, 143);
+    box-shadow: 2px 2px 4px 0;
+}
+
+.btn:active{
+    background-color: rgb(75, 141, 143);
+    box-shadow: 0px 0px 0px 0;
+}
+
+.service-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(9, 10, 9);
+    text-align: center;
+    box-shadow: 4px 4px 8px 0;
+    background-color: rgb(18, 170, 28);
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+}
+
+.service{
+    margin-top: 45px;
+    height: 120vh;
+}
+
+.service-container{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.service-card{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 8px 0;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.card-image{
+    width: 150px;
+    height: 150px;
+}
+
+.lower-body{
+    display: flex;
+    height: 86vh;
+}
+
+.lower-image{
+    width: 700px;
+    height: 700px;
+    margin-left: 170px;
+}
+
+.information{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 130px;
+}
+
+.hire-btn{
+    padding:20px;
+    background-color: rgb(127, 228, 232);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0;
+    cursor: pointer;
+}
+
+.hire-btn:hover{
+    background-color: rgb(75, 141, 143);
+    box-shadow: 2px 2px 4px 0;
+}
+
+.hire-btn:active{
+    background-color: rgb(75, 141, 143);
+    box-shadow: 0px 0px 0px 0;
+}
+
+.lower-body-title{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.p-content{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.icon-content{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.footer{
+    margin: 0px;
+    display: flex;
+    background-color: black;
+    height: 530px;
+    color: white;
+}
+
+.logo-with-name{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-title{
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.content-inside{
+    text-align: justify;
+}
+
+.footer-content{
+    width: 350px;
+    margin-left: 110px;
+}
+
+.inpt{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(41, 154, 21);
+}
+
+.job-notification{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.footer-middle{
+    color: white;
+    margin-left: 150px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.footer-middle-content-Middle{
+    margin-left: 90px;
+}
+
+.footer-middle-content-Right{
+    margin-left: 90px;
+}
+
+.right-most-div{
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.address-div{
+    margin-top: 145px;
+    margin-left: -70px;
+}
